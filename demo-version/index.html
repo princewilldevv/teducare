@@ -1,0 +1,60 @@
+<div class="container-fluid  px-0 px-md-5 mb-5" style="">
+        <div class="row align-items-center px-3" style="margin-top:50px;">
+            <div class="col-lg-6 text-center text-lg-left">
+    
+                <div><button id="dhparent"  class="btn btn-secondary mt-1 py-3 px-5 d-lg-btn d-lg-btn-active">Parent</button></div>
+                <div><button id="dhteacher" class="btn d-btn-white-bg mt-1 py-3 px-5 d-lg-btn" > Teacher</button></div>
+				<div><button id="dhowner" class="btn d-btn-white-bg mt-1 py-3 px-5 d-lg-btn"> Owner</button></div>
+            </div>
+            <div class="col-lg-6 ">
+				<div id="d-signin">
+                <form action="demo#dashboard" method="post">
+                    <div class="form-group">
+                        <input type="email" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="Email or Phone Number" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="Password" required="required" />
+                    </div>
+					<div style="text-align:center;">
+					<p>Dont have an account? <a id="or-signup" href="javascript:;">Create one</a></p>
+					</div>
+                    <div style="display:flex; justify-content: center;">
+                        <button class="btn  btn-block border-0 py-3" style="background:#0067A2; color:white; width: 150px;" type="submit">Sign In</button>
+                    </div>
+					
+                </form>
+					
+				</div>
+				
+				<div id="d-signup" style="display:none;">
+				<form action="" method="post">
+                    <div class="form-group">
+                        <input type="text" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="First Name" required="required" />
+                    </div>
+					<div class="form-group">
+                        <input type="text" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="Surename" required="required" />
+                    </div>
+					<div class="form-group">
+                        <input type="email" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="Email" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="Password" required="required" />
+                    </div>
+					<div class="form-group">
+                        <input type="password" class="d-form-control py-4" style="border-bottom: 1px solid;" placeholder="Repeat Password" required="required" />
+                    </div>
+					<div style="text-align:center;">
+					<p>Already have an account? <a id="or-signin" href="javascript:;">Sign In</a></p>
+					</div>
+                    <div style="display:flex; justify-content: center;">
+                        <button class="btn  btn-block border-0 py-3" style="background:#0067A2; color:white; width: 150px;" type="submit">Sign Up</button>
+                    </div>
+				
+                </form>
+				
+				</div>
+				
+            </div>
+        </div>
+    </div>
+	<script src="js/demo-home.js"></script>
