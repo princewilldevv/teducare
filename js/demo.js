@@ -93,8 +93,3 @@ function lintopage(params){
     location.href = `demo#${params}`;
     location.reload(); 
 }
-
-document.getElementById(item.id).addEventListener("demologin", function(){
-    location.href = `demo#dashboard`;
-    location.reload(); 
-});
