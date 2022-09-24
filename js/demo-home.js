@@ -28,3 +28,8 @@ function buttonrolladd(params) {
     document.getElementById(params).classList.remove("d-btn-white-bg")
     document.getElementById(params).classList.add("btn-secondary", "d-lg-btn-active")
 }
+document.getElementById('demologin').addEventListener("submit", function(){
+    console.log('hey')
+    location.href = `demo#dashboard`;
+    location.reload(); 
+});
