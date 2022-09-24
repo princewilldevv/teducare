@@ -1,0 +1,345 @@
+.d-btn-white-bg{
+    background:white; 
+    border:1px solid gray;
+}
+.d-lg-btn{
+    margin-bottom: 20px;
+}
+.d-lg-btn-active{
+    box-shadow: 0px 4px 5px 0px rgba(179,177,177,0.75);
+-webkit-box-shadow: 0px 4px 5px 0px rgba(179,177,177,0.75);
+-moz-box-shadow: 0px 4px 5px 0px rgba(179,177,177,0.75);
+}
+.d-pinkbg-lg{
+    position: absolute;
+    top: -128px;
+    left: -116px;
+}
+.d-bluebg-db{
+    position: absolute;
+    top: -400px;
+    left: 0;
+    transform: rotate(180deg);
+}
+.d-central-lg{
+    position: absolute;
+    top: -580px;
+    right: 0;
+}
+.d-fm-bd{
+    border-bottom: 1px solid;
+}
+.d-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0px;
+/*
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+*/
+}
+.d-form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.d-form-control:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #495057;
+}
+
+.d-form-control:focus {
+  color: #495057;
+/*
+  background-color: #fff;
+  border-color: #63d9ec;
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
+*/
+  outline: 0;
+  
+}
+.d-form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.d-form-control:disabled, .form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+.d-or-sign{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*DASHBOARD*/
+.d-dhbcirclcontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.d-dhbcircle{
+    width: 200px;
+    height: 200px;
+    background: #ffd6d6;
+    border-radius: 50%;
+}
+.d-dhjellych{
+    position: absolute;
+    top: -149px;
+    left: 43px;
+}
+.d-dhpaledu{
+    position: absolute;
+    top: -223px;
+    left: 95px;
+}
+.d-dhcalapp{
+    position: absolute;
+    top: -183px;
+    left: 168px;
+}
+.d-dhbonbonhobby{
+    position: absolute;
+    top: -69px;
+    left: 140px
+}
+.d-profile-d{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    top: -167px;
+}
+.d-profile-balge{
+    width: 15px;
+    height: 15px;
+    background: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -35px;
+    right: 26px;
+}
+.d-profile-ico{
+    position: absolute;
+    top: -140px;
+    right: 130px;
+}
+.d-kids-nhd{
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.d-kids-nrow{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.d-kid-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.d-kid-dotted{
+    display: flex;
+    justify-content: flex-end;
+}
+.d-kid-dottedmn{
+    width: 10px;
+    height: 10px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+.d-kids-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.d-kids-addone{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 110px;
+}
+.d-points-nrow{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.d-profile-balgep{
+    width: 15px;
+    height: 15px;
+    background: #0067A2;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -94px;
+    right: 6px;
+}
+.d-profile-balger{
+    width: 30px;
+    height: 15px;
+    background: #D9D9D9;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 42%;
+    color: black;
+}
+.d-points-box-con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.d-points-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.d-message-left{
+    width: 100%;
+    height: 136px;
+    border-radius: 20px;
+    background: #024e7a;
+    padding: 10px;
+}
+.d-messages-box-con{
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+    margin-top: 30px;
+}
+.d-message-msgntime{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.d-message-msg{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.d-message-msgimg1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url('../img/smilegirl.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+.d-message-msgimg2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url('../img/girlwithglasses.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+.d-message-msgimg3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url('../img/mansmilling.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+.d-message-msgimg4{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url('../img/girlblackhair.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+.d-discover-box-con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.d-discover-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 250px;
+    height: 200px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.d-discover-lsnd{
+    display: flex;
+    justify-content: space-between;
+}
+.d-discover-plnd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.d-discover-pica1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background: url('../img/kidplaytable.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+.d-discover-pica2{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background: url('../img/childplaystring.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+.d-discover-pica3{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background: url('../img/childplaynumber.jpg');
+    background-size: cover;
+    background-position: center, center;
+}
+}
+@media (max-width: 991px) {
+    .d-pinkbg-lg{
+        display: none;
+    }
+    
+}
